@@ -1,0 +1,54 @@
+/* Contenedor principal */
+.App {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ecf0f1;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de elementos */
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding: 15px 20px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #dcdde1;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #e1ecf4;
+  border-color: #3498db;
+  color: #3498db;
+}
+
+/* Detalles */
+.details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fafafa;
+  border: 1px solid #dcdde1;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.details h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.details p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
